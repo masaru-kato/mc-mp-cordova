@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "594669781323",
+    "firebase_url": "https://mc-mp-cordova.firebaseio.com",
+    "project_id": "mc-mp-cordova",
+    "storage_bucket": "mc-mp-cordova.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:594669781323:android:4ef102e087814eeedfa8ce",
+        "android_client_info": {
+          "package_name": "com.salesforce.mobilepush.cordova"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "594669781323-q0i4qkhavtqk34ovq4trffq3hrnt8jv6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAvSpRjW84UHTZBh7SuLUprQGs1a3nMbJU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "594669781323-q0i4qkhavtqk34ovq4trffq3hrnt8jv6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

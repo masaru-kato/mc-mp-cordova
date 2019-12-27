@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.salesforce.mobilepush.cordova" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>mc-mp-cordova</name>
+    <description>
+        A sample Apache Cordova application that responds to the deviceready event.
+    </description>
+    <author email="dev@cordova.apache.org" href="http://cordova.io">
+        Apache Cordova Team
+    </author>
+    <content src="index.html" />
+    <access origin="*" />
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+    <allow-intent href="tel:*" />
+    <allow-intent href="sms:*" />
+    <allow-intent href="mailto:*" />
+    <allow-intent href="geo:*" />
+    <platform name="android">
+        <allow-intent href="market:*" />
+    </platform>
+    <platform name="ios">
+        <allow-intent href="itms:*" />
+        <allow-intent href="itms-apps:*" />
+    </platform>
+    <preference name="com.salesforce.marketingcloud.app_id" value="46f2750c-ac9b-40df-a97e-172b090db6bd" />
+    <preference name="com.salesforce.marketingcloud.access_token" value="XoUEciskRbp6o4W8LpTU659p" />
+    <preference name="com.salesforce.marketingcloud.tenant_specific_endpoint" value="https://mcbv3zq4vmcdg4c9hcd0cvqtdk84.device.marketingcloudapis.com/" />
+    <platform name="android">
+        <preference name="com.salesforce.marketingcloud.notification_small_icon" value="ic_notification" />
+    </platform>
+    <preference name="com.salesforce.marketingcloud.analytics" value="true" />
+    <preference name="com.salesforce.marketingcloud.delay_registration_until_contact_key_is_set" value="false" />
+    <platform name="android">
+        <resource-file src="google-services.json" target="mc-mp-cordova/google-services.json" />
+    </platform>
+    <plugin name="cordova-plugin-whitelist" spec="1" />
+    <plugin name="cordova-plugin-marketingcloudsdk" spec="~6.4.0" />
+</widget>
